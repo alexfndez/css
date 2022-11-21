@@ -1,0 +1,17 @@
+/*
+Titulo centrado, en Times New Roman, opacidad de 0,6 y fondo gris
+*/
+#titulo1 {
+    text-align: center;
+    font-family: "Times New Roman";
+    opacity: 0.6;
+    background-color: lightgrey;
+}
+
+/*
+Titulo con linea arriba y sombra
+*/
+#titulo2 {
+    text-decoration-line: overline;
+    text-shadow: 2px 2px;
+}
