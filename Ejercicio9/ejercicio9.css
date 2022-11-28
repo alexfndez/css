@@ -1,0 +1,38 @@
+#cabecera {
+    height: 200px;
+    background-color: aqua;
+    border: solid 1px black;
+    padding: 9px;
+}
+
+#colizq {
+    width: 70%;
+    background-color: navy;
+    float: left;
+    border: solid 1px black;
+    padding: 9px;
+}
+
+#colder {
+    width: 20%;
+    background-color: firebrick;
+    float: right;
+    border: solid 1px black;
+    padding: 9px;
+}
+
+#pie {
+    height: 50px;
+    background-color: olivedrab;
+    clear: both;
+    border: 1px solid;
+    padding: 9px;
+}
+
+#cabecera h1{
+    float: left;
+}
+
+#cabecera img{
+    float: right;
+}
