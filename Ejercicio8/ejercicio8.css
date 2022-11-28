@@ -1,0 +1,21 @@
+#uno{
+    border: solid 5px black;
+    margin: 0px;
+    padding: 0px;
+    background-color: aqua;
+}
+#dos{
+    border: solid 5px brown;
+    margin: 5px;
+    padding: 5px;
+    background-color: gold;
+}
+#tres{
+    border: solid 5px blue;
+    margin: 0px;
+    padding: 20px;
+    background-color: khaki;
+}
+div{
+    margin: 0px;
+}
