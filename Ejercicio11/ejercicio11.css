@@ -1,0 +1,7 @@
+ol {
+    list-style-position: outside;
+}
+
+ul {
+    list-style: square inside url("jordi.jpg");
+}
