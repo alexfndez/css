@@ -13,8 +13,11 @@
     padding: 9px;
 }
 
-#colizq a{
+#colizq .enlace {
     border: solid 1px black;
+    padding-left: 5px;
+    padding-bottom: 7px;
+    margin-bottom: 5px;
 }
 
 #colder {
@@ -23,4 +26,22 @@
     float: right;
     border: solid 1px black;
     padding: 9px;
+}
+
+#uno {
+    float: right;
+    font-weight: bold;
+    text-align: center;
+}
+
+#dos {
+    float: left;
+    font-weight: bold;
+    text-align: center;
+}
+
+#tres {
+    float: right;
+    font-weight: bold;
+    text-align: center;
 }
