@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="ejercicio16.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div>
+        <div id="titulo">
+            <h1>Telebirra</h1>
+            <p>Formulario Datos Personales y de envio</p>
+        </div>
+        <div id="sesion">
+            <p>Iniciar</p>
+            <label>Nombre</label>
+            <input type="text">
+            <label>Apellidos</label>
+            <input type="text">
+            <input type="submit" value="Conectar">
+        </div>
+        <div id="colizq">
+            <fieldset>
+                <legend>Datos Personales y de envio</legend>
+                <label>Nombre</label>
+                <input type="text"><br>
+                <label>Apellidos</label>
+                <input type="text"><br>
+                <label>Domicilio</label>
+                <input type="text"><br>
+                <label>Localidad</label>
+                <input type="text"><br>
+                <label>Código Postal</label>
+                <input type="text"><br>
+                <label>Teléfono</label>
+                <input type="text"><br>
+            </fieldset>
+            <fieldset>
+                <legend>Elija la opción de entrega</legend>
+                <input type="radio" name="envio">
+                <label for="envio">Recoger en el local</label><br>
+                <input type="radio" name="envio">
+                <label for="envio">Enviar a domicilio</label><br><br>
+            </fieldset>
+            <fieldset>
+                <legend>¿Quiere que le enviemos nuestras ofertas?</legend>
+                <input type="checkbox" name="envio">
+                <label for="envio">Enviar al domicilio</label><br>
+                <input type="checkbox" name="envio">
+                <label for="envio">Enviar por email</label><br><br>
+            </fieldset>
+        </div>
+        <div id="colder">
+            <fieldset>
+                <legend>Elija su menu</legend>
+                <label for="dia">Tamaño del bocadillo</label><br>
+                <select id="dia" size="4">
+                    <option value="pequeño">pequeño</option>
+                    <option value="mediano">mediano</option>
+                    <option value="grande">grande</option>
+                    <option value="enorme">enorme</option>
+                </select><br><br>
+                <label for="dia">Contenido del bocadillo</label><br>
+                <select id="dia" size="4">
+                    <option value="anchoas">anchoas</option>
+                    <option value="calamares">calamares</option>
+                    <option value="mejllones">mejllones</option>
+                    <option value="jamon">jamon</option>
+                </select><br><br>
+                <label for="observaciones">Puede añadir alguna sugerencia</label><br><br>
+                <textarea id="observaciones" colums="50" rows="3"></textarea><br>
+            </fieldset><br>
+        </div>
+        <div id="enviar">
+            <p>Formulario Datos Personales y de envio</p>
+            <input type="submit" value="Enviar datos">
+            <p>Formulario Datos Personales y de envio</p>
+            <input type="reset" value="Borrar datos">
+        </div>
+    </div>
+</body>
+
+</html>

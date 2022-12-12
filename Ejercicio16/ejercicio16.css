@@ -1,0 +1,48 @@
+div {
+    background-color: rgb(172, 82, 172);
+}
+
+#titulo {
+    height: 100px;
+    width: 47%;
+    float: left;
+    padding: 9px;
+    margin-bottom: 5px;
+}
+
+#titulo h1{
+    color: red;
+}
+
+#titulo p{
+    color: blue;
+}
+
+#sesion {
+    height: 100px;
+    width: 47%;
+    float: right;
+    padding: 9px;
+    margin-bottom: 5px;
+}
+
+#colizq {
+    width: 47%;
+    float: left;
+    padding: 9px;
+    margin-bottom: 5px;
+}
+
+#colder {
+    width: 47%;
+    float: right;
+    padding: 9px;
+    margin-bottom: 5px;
+}
+
+#enviar {
+    clear: both;
+    width: 99%;
+    padding-left: 5px;
+    padding-top: 5px;
+}
