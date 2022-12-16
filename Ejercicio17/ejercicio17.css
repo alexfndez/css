@@ -1,0 +1,56 @@
+#contenedor {
+    width: 47%;
+    height: 240px;
+    background-color: aqua;
+}
+
+#foto {
+    width: 49%;
+    float: left;
+    height: 100%;
+}
+
+#foto img {
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+}
+
+#contenido {
+    width: 49%;
+    float: right;
+    height: 100%;
+}
+
+#salir {
+    float: right;
+}
+
+#nombre {
+    padding-left: 9px;
+    margin-bottom: 5px;
+    clear: both;
+}
+
+#precio {
+    float: right;
+    padding: 9px;
+    margin-bottom: 5px;
+    clear: both;
+}
+
+#color {
+    padding: 9px;
+    margin-bottom: 5px;
+    clear: both;
+}
+
+#color li {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border: solid 1px black;
+    border-radius: 12px;
+    background-color: red;
+    margin-left: 10px;
+}
