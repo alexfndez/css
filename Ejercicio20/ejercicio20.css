@@ -1,0 +1,49 @@
+#cabecera {
+    background-color: rgb(187, 187, 187);
+    border: solid 1px black;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+#cabecera img{
+    height: 60px;
+    width: 60px;
+}
+
+#navegacion {
+    float: right;
+    height: 50px;
+    padding-top: 5px;
+    margin-bottom: 5px;
+    padding-right: 20px;
+}
+
+#navegacion ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+#navegacion ul li {
+    float: left;
+    border: solid 1px black;
+    padding: 5px;
+    margin: 5px;
+}
+
+#navegacion ul li a:hover {
+    color: hotpink;
+}
+
+#navegacion ul li a:active {
+    color: blue;
+}
+
+#navegacion ul li a:link {
+    color: red;
+}
+
+#navegacion ul li a:visited {
+    color: green;
+}
+
